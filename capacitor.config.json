@@ -1,0 +1,19 @@
+{
+  "appId": "com.chaiReader.app",
+  "appName": "Chai Reader",
+  "webDir": "out",
+  "server": {
+    "androidScheme": "https"
+  },
+  "ios": {
+    "contentInset": "automatic"
+  },
+  "android": {
+    "targetSdkVersion": 34
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
