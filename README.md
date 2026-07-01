@@ -1,4 +1,4 @@
-# Chai Reader 📚
+# Chai Reader 
 
 A modern, Capacitor-ready Next.js application for book discovery, author profiles, and literary exploration. Built with responsive design and structured for future mobile app packaging.
 
@@ -6,7 +6,7 @@ A modern, Capacitor-ready Next.js application for book discovery, author profile
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 
@@ -47,7 +47,7 @@ npm run lint
 
 ---
 
-## 📖 How to Run the Project
+## How to Run the Project
 
 ### Development Mode
 
@@ -99,7 +99,7 @@ chai-reader/
 
 ---
 
-## 💡 Assumptions Made
+## Assumptions Made
 
 ### 1. **Author Data is Static**
 - Assumed author and book data comes from local `data/authors.ts` file
@@ -111,7 +111,7 @@ chai-reader/
 - Mobile via Capacitor is optional future phase
 - Desktop/responsive web is the MVP
 
-### 3. **Responsive Design Priority**
+### 3. **Responsive Design Prior
 - Mobile-first CSS approach with Tailwind breakpoints
 - Assumption: users access from various devices (desktop, tablet, mobile)
 - No assumptions about specific screen sizes
@@ -143,7 +143,7 @@ chai-reader/
 
 ---
 
-## 📦 Libraries Used
+## Libraries Used
 
 ### Core Framework
 - **Next.js 16.2.9** - React framework with App Router, server/client components
@@ -187,67 +187,67 @@ chai-reader/
 
 ---
 
-## ⚖️ Trade-offs
+## Trade-offs
 
 ### 1. **Static Data vs. Real API**
 **Choice**: Static author data in `data/authors.ts`
 
 **Trade-off**:
-- ✅ Pro: No backend required, fast development, works offline
-- ❌ Con: Data updates require code changes and rebuild
-- 🔄 Future: API abstraction layer ready for backend integration
+- Pro: No backend required, fast development, works offline
+- Con: Data updates require code changes and rebuild
+- Future: API abstraction layer ready for backend integration
 
 ### 2. **Client-Side Storage vs. Backend**
 **Choice**: Browser localStorage for wishlist
 
 **Trade-off**:
-- ✅ Pro: No server needed, works offline, faster
-- ❌ Con: Data not synced across devices, lost if browser cache cleared
-- 🔄 Future: Easy to migrate to server-side with API layer
+- Pro: No server needed, works offline, faster
+- Con: Data not synced across devices, lost if browser cache cleared
+- Future: Easy to migrate to server-side with API layer
 
 ### 3. **No Authentication**
 **Choice**: Public app without login
 
 **Trade-off**:
-- ✅ Pro: Simpler architecture, faster to build, accessible to all
-- ❌ Con: Can't track user preferences across devices
-- 🔄 Future: Auth abstraction ready to add
+- Pro: Simpler architecture, faster to build, accessible to all
+- Con: Can't track user preferences across devices
+- Future: Auth abstraction ready to add
 
 ### 4. **Minimal Dependencies**
 **Choice**: Built custom API/storage abstractions instead of third-party libraries
 
 **Trade-off**:
-- ✅ Pro: Smaller bundle, fewer vulnerabilities, full control
-- ❌ Con: Need to maintain custom code
-- ✅ Pro: Easier to understand for new developers
+- Pro: Smaller bundle, fewer vulnerabilities, full control
+- Con: Need to maintain custom code
+- Pro: Easier to understand for new developers
 
 ### 5. **Capacitor Readiness vs. Complexity**
 **Choice**: Platform abstraction layers added even for web-only MVP
 
 **Trade-off**:
-- ✅ Pro: Easy mobile expansion later, no architecture rework
-- ❌ Con: Extra files/code for features not currently used
-- ✅ Pro: Developers learn mobile-ready patterns from day 1
+- Pro: Easy mobile expansion later, no architecture rework
+- Con: Extra files/code for features not currently used
+- Pro: Developers learn mobile-ready patterns from day 1
 
 ### 6. **Responsive CSS vs. Mobile App**
 **Choice**: Responsive web only initially
 
 **Trade-off**:
-- ✅ Pro: Faster to launch, works everywhere
-- ❌ Con: Not installable like app, no push notifications
-- 🔄 Future: Capacitor wrapper for app store distribution
+- Pro: Faster to launch, works everywhere
+- Con: Not installable like app, no push notifications
+- Future: Capacitor wrapper for app store distribution
 
 ### 7. **TypeScript Strict Mode**
 **Choice**: All code passes strict TypeScript checking
 
 **Trade-off**:
-- ✅ Pro: Fewer runtime errors, better IDE support, self-documenting code
-- ❌ Con: Slower initial development, more verbose types
-- ✅ Pro: Pays off quickly with reduced debugging
+- Pro: Fewer runtime errors, better IDE support, self-documenting code
+- Con: Slower initial development, more verbose types
+- Pro: Pays off quickly with reduced debugging
 
 ---
 
-## 🎯 Improvements with More Time
+## Improvements with More Time
 
 ### Short Term (1-2 weeks)
 1. **Search & Filtering**
@@ -351,9 +351,9 @@ chai-reader/
 
 ---
 
-## 📊 Current Status
+## Current Status
 
-✅ **Complete**
+**Complete**
 - Author discovery & navigation
 - Responsive author detail pages
 - Dynamic routing with [slug]
@@ -361,11 +361,11 @@ chai-reader/
 - Platform abstraction layers
 - Comprehensive documentation
 
-⏳ **In Progress**
+**In Progress**
 - Browser testing & validation
 - Performance optimization
 
-❌ **Not Started**
+**Not Started**
 - Backend integration
 - Mobile app packaging
 - User authentication
@@ -373,7 +373,7 @@ chai-reader/
 
 ---
 
-## 🔗 Resources
+## Resources
 
 - **Framework**: [Next.js Docs](https://nextjs.org/docs)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
@@ -383,7 +383,7 @@ chai-reader/
 
 ---
 
-## 📞 Questions?
+## Questions?
 
 See [docs/DEVELOPMENT.md](./docs/DEVELOPMENT.md) for troubleshooting and FAQs.
 
